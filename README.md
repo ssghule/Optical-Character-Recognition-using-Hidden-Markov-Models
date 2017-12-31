@@ -7,7 +7,7 @@ It turns out that the main reason for OCR’s success is that there’s a strong
 can resolve ambiguities in recognition by using statistical constraints of English (or whichever language is
 being processed). These constraints can be incorporated very naturally using an HMM.</br> </br>
 
-We’ve already divided a text string image up into little subimages corresponding to individual letters;
+__Data:__ A text string image is divided into little subimages corresponding to individual letters;
 a real OCR system has to do this letter segmentation automatically, but here we’ll assume a fixed-width
 font so that we know exactly where each letter begins and ends ahead of time. In particular, we’ll assume
 each letter fits in a box that’s 16 pixels wide and 25 pixels tall. We’ll also assume that our documents only
